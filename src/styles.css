@@ -1,8 +1,8 @@
 h2 {
-    color: #99738E;
+    color: #FBEEC1;
 }
 body {
-    background-color: #99738E;
+    background-color: #FBEEC1;
     margin: 0 auto;
     width: 1200px;
 }
@@ -18,9 +18,9 @@ main {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
-    background-color: #242582;
+    background-color: #659DBD;
     color: white;
-    box-shadow: 5px 10px #553D67;
+    box-shadow: 5px 10px #DAAD86;
     border-radius: 10px;
     height: 70px;
 }
@@ -39,4 +39,11 @@ main {
 }
 .visible {
     height: 300px;
+}
+button {
+    margin-top: 10px;
+}
+#planets {
+    margin-top: 20px;
+    height: 20px
 }

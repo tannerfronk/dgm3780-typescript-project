@@ -1,3 +1,43 @@
 h2 {
-    color: blue;
+    color: #99738E;
+}
+body {
+    background-color: #99738E;
+    margin: 0 auto;
+    width: 1200px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    border: 1px black solid;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background-color: #242582;
+    color: white;
+    box-shadow: 5px 10px #553D67;
+    border-radius: 10px;
+    height: 80px;
+}
+.card h2 {
+    margin-left: 2%
+}
+.card p {
+    margin-left: 2%   
+}
+.infoArea {
+    height: 100px;
+    visibility: visible;
+    transition: .8s;
+}
+.hidden {
+    visibility: collapse;
+}
+.visible {
+    height: 160px;
 }

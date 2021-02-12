@@ -33,6 +33,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./src/pages/index.html")
     }),
-    new MiniCssExtractPlugin({filename: "styles.[hash].css"})
+    new MiniCssExtractPlugin({filename: "styles.[fullhash].css"})
   ]
 };

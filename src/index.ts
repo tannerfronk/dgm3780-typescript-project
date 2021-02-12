@@ -9,7 +9,7 @@ interface Data {
 type GetCharData = (url: string) => Promise<Data[]>
 
 let charArray: any = []
-const getCharacterData: GetCharData = async (url) => {
+const getSwapiData: GetCharData = async (url) => {
     const res = await fetch(url)
     const data = await res.json()
     const charData = data.results
@@ -17,8 +17,7 @@ const getCharacterData: GetCharData = async (url) => {
 }
 
 window.addEventListener('load', () => {
-getCharacterData(url).then(() =>{
-    console.log(charArray[0][1].species)
+getSwapiData(url).then(() =>{ // start of character cards
     for(let i: number = 0; i < charArray[0].length; i++){
         const card = document.createElement('div')
         card.className = "card"
@@ -65,8 +64,9 @@ getCharacterData(url).then(() =>{
             infoArea.classList.toggle('hidden')
             card.classList.toggle("visible")
         })
-        console.log(title)
     }
 })
+
+
 
 })

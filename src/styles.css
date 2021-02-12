@@ -22,7 +22,7 @@ main {
     color: white;
     box-shadow: 5px 10px #553D67;
     border-radius: 10px;
-    height: 80px;
+    height: 70px;
 }
 .card h2 {
     margin-left: 2%
@@ -31,7 +31,6 @@ main {
     margin-left: 2%   
 }
 .infoArea {
-    height: 100px;
     visibility: visible;
     transition: .8s;
 }
@@ -39,5 +38,5 @@ main {
     visibility: collapse;
 }
 .visible {
-    height: 160px;
+    height: 300px;
 }

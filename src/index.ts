@@ -1,7 +1,7 @@
 import './styles.css';
 
-let url: string = "http://swapi.dev/api/people/"
-let url2: string = "http://swapi.dev/api/planets/"
+let url: string = "https://swapi.dev/api/people/"
+let url2: string = "https://swapi.dev/api/planets/"
 
 let planetArray: Array<string> = []
 
